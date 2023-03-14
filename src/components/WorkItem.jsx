@@ -17,10 +17,10 @@ const WorkItem = ( { year, title, duration, details, moreDetails } ) =>
             { duration }
           </span>
         </p>
-        <p className='my-2 textbase font-normal text-stone-500'>
+        <p className='my-2 text-base font-normal text-stone-500'>
           { details }
         </p>
-        <p className='my-2 textbase font-normal text-stone-500'>
+        <p className='my-2 text-base font-normal text-stone-500'>
           { moreDetails }
         </p>
       </li>

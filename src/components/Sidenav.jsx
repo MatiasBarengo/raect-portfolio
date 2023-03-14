@@ -1,4 +1,6 @@
-import React from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import React, { useEffect } from 'react';
 import { useState } from 'react';
 import { AiOutlineMenu, AiOutlineHome, AiOutlineProject, AiOutlineMail } from 'react-icons/ai';
 import { BsPerson } from 'react-icons/bs';
@@ -6,6 +8,11 @@ import { GrProjects } from 'react-icons/gr';
 
 const Sidenav = () =>
 {
+  useEffect( () =>
+  {
+    Aos.init( { duration: 2000 } )
+  }, [] )
+
   const [ nav, setNav ] = useState( false );
   const handleNav = () =>
   {
@@ -50,7 +57,7 @@ const Sidenav = () =>
           )
       }
       <div className='md:block hidden fixed top-[25%] left-4 z-10'>
-        <div className='flex flex-col'>
+        <div className='flex flex-col' data-aos='flip-up'>
           <a href="#main" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100'>
             <AiOutlineHome size={ 25 } />
           </a>

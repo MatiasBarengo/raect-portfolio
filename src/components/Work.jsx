@@ -1,8 +1,15 @@
-import React from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import React, { useEffect } from 'react'
 import WorkItem from './WorkItem'
 
 const Work = () =>
 {
+  useEffect( () =>
+  {
+    Aos.init( { duration: 2000 } )
+  }, [] )
+
   const data = [
     {
       year: 2022,
@@ -33,7 +40,7 @@ const Work = () =>
     },
   ]
   return (
-    <div id='work' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
+    <div id='work' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16' data-aos='flip-up'>
       <h1 className='text-4xl font-bold text-center text-[#001b5e] mb-10'>Work Experience</h1>
       { data.map( ( item, idx ) =>
       {

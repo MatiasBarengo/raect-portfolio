@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Contact = () =>
 {
+  useEffect( () =>
+  {
+    Aos.init( { duration: 2000 } )
+  }, [] )
   return (
-    <div id='contact' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
+    <div id='contact' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16' data-aos='flip-up'>
       <h1 className='py-4 text-4xl font-bold text-center text-[#001b5e]'>Contact me</h1>
       <form action='https://getform.io/f/7bc26b8e-287a-46c2-ad17-8718092e3b52' method='POST' encType='multipart/form-data'>
         <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
