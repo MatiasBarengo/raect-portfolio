@@ -1,4 +1,17 @@
 import React from 'react';
+import htmlCssJavascript from '../assets/js-html-css.png'
+import reactJs from '../assets/reactjs.png'
+import tailwindCss from '../assets/tailwindcss.png'
+import redux from '../assets/redux.png'
+import nextJs from '../assets/nextjs.png'
+import typescript from '../assets/typescript.png'
+import nodeJs from '../assets/nodejs.png'
+import gmail from '../assets/gmail.png'
+import whatsapp from '../assets/whatsapp.png'
+import miFoto from '../assets/mifoto.jpg'
+import github from '../assets/github.png'
+import linkedin from '../assets/linkedin.png'
+import cv from '../assets/cv.png'
 
 const AboutMe = () =>
 {
@@ -20,7 +33,7 @@ const AboutMe = () =>
             <img
               title='HTML CSS JavaScript'
               className='h-32 mx-16 my-8 hover:scale-125 ease-in duration-200'
-              src="src\assets\js-html-css.png"
+              src={ htmlCssJavascript }
               alt="html-css-javascript" />
             <p className='text-gray-500 italic'>HTML - CSS - JavaScript</p>
           </div>
@@ -28,7 +41,7 @@ const AboutMe = () =>
             <img
               title='ReactJs'
               className='h-32 mx-16 my-8 hover:scale-125 ease-in duration-200'
-              src="src\assets\react-js.png"
+              src={ reactJs }
               alt="react-js" />
             <p className='text-gray-500 italic'>ReactJs</p>
           </div>
@@ -36,7 +49,7 @@ const AboutMe = () =>
             <img
               title='NodeJs'
               className='h-32 mx-16 my-8 hover:scale-125 ease-in duration-200'
-              src="src\assets\node-js.png"
+              src={ nodeJs }
               alt="node-js" />
             <p className='text-gray-500 italic'>NodeJs</p>
           </div>
@@ -44,7 +57,7 @@ const AboutMe = () =>
             <img
               title='Tailwind CSS'
               className='h-32 mx-16 my-8 hover:scale-125 ease-in duration-200'
-              src="src\assets\tailwins-css.png"
+              src={ tailwindCss }
               alt="tailwind-css" />
             <p className='text-gray-500 italic'>Tailwind CSS</p>
           </div>
@@ -52,7 +65,7 @@ const AboutMe = () =>
             <img
               title='Redux'
               className='h-32 mx-16 my-8 hover:scale-125 ease-in duration-200'
-              src="src\assets\redux.png"
+              src={ redux }
               alt="redux" />
             <p className='text-gray-500 italic'>Redux</p>
           </div>
@@ -60,7 +73,7 @@ const AboutMe = () =>
             <img
               title='NextJs'
               className='h-32 mx-16 my-8 hover:scale-125 ease-in duration-200'
-              src="src\assets\NextJs.png"
+              src={ nextJs }
               alt="nextjs" />
             <p className='text-gray-500 italic'>NextJs</p>
           </div>
@@ -68,7 +81,7 @@ const AboutMe = () =>
             <img
               title='TypeScript'
               className='h-32 mx-16 my-8 hover:scale-125 ease-in duration-200'
-              src="src\assets\919832.png"
+              src={ typescript }
               alt="typescript" />
             <p className='text-gray-500 italic'>TypeScript</p>
           </div>
@@ -81,27 +94,27 @@ const AboutMe = () =>
           <a
             href="https://drive.google.com/file/d/1KFqI5zgBf9QvcOd07RkFCNupzxdp11_C/view?usp=share_link"
             target='_blank'>
-            <img className='h-24 hover:scale-125 ease-in duration-200' src="src\assets\CV.png" title="Mi CV" />
+            <img className='h-24 hover:scale-125 ease-in duration-200' src={ cv } title="Mi CV" />
           </a>
           <a
             href="https://github.com/MatiasBarengo"
             target='_blank'>
-            <img className='h-24 hover:scale-125 ease-in duration-200' src="src\assets\github.png" title="Mi GitHub" />
+            <img className='h-24 hover:scale-125 ease-in duration-200' src={ github } title="Mi GitHub" />
           </a>
           <a
             href="https://www.linkedin.com/in/matias-barengo-dev/"
             target='_blank'>
-            <img className='h-24 hover:scale-125 ease-in duration-200' src="src\assets\linkedin.png" title="Mi Linkedin" />
+            <img className='h-24 hover:scale-125 ease-in duration-200' src={ linkedin } title="Mi Linkedin" />
           </a>
           <a
             href="https://wa.me/541161444231"
             target='_blank'>
-            <img className='h-24 hover:scale-125 ease-in duration-200' src="src\assets\whats.png" title="Mi WhatsApp" />
+            <img className='h-24 hover:scale-125 ease-in duration-200' src={ whatsapp } title="Mi WhatsApp" />
           </a>
           <a
             href="mailto:matiasbarengo99@gmail.com"
             target='_blank'>
-            <img className='h-24 hover:scale-125 ease-in duration-200' src="src\assets\Gmail_Icon.png" title="Mi Gmail" />
+            <img className='h-24 hover:scale-125 ease-in duration-200' src={ gmail } title="Mi Gmail" />
           </a>
         </div>
         {/* Know me */ }
@@ -116,7 +129,7 @@ const AboutMe = () =>
             I have experience developing Front-end and Back-end projects.
             If you are interested, you can contact me.
           </p>
-          <img className='hidden md:inline-block rounded-full h-100%' src="src\assets\mifoto.jpg" alt="Mi Foto" />
+          <img className='hidden md:inline-block rounded-full h-100%' src={ miFoto } alt="Mi Foto" />
         </div>
       </div>
     </div>
