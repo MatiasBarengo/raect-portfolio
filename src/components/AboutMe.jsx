@@ -11,7 +11,7 @@ import whatsapp from '../assets/whatsapp.png'
 import miFoto from '../assets/mifoto.jpg'
 import github from '../assets/github.png'
 import linkedin from '../assets/linkedin.png'
-import cv from '../assets/cv.png'
+// import cv from '../assets/cv.png'
 
 const AboutMe = () =>
 {
@@ -91,11 +91,11 @@ const AboutMe = () =>
         >Contact Info
         </h2>
         <div data-aos='fade-left' className='flex flex-wrap gap-20 justify-around items-center mt-8 '>
-          <a
+          {/* <a
             href="https://drive.google.com/file/d/1KFqI5zgBf9QvcOd07RkFCNupzxdp11_C/view?usp=share_link"
             target='_blank'>
             <img className='h-24 hover:scale-125 ease-in duration-200' src={ cv } title="Mi CV" />
-          </a>
+          </a> */}
           <a
             href="https://github.com/MatiasBarengo"
             target='_blank'>
