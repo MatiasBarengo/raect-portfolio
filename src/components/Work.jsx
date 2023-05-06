@@ -12,8 +12,15 @@ const Work = () =>
 
   const data = [
     {
-      year: 2022,
+      year: 2023,
       duration: 'Present',
+      title: 'NoCountry - Seleccionado',
+      details: 'Front-End Developer',
+      moreDetails: 'I was selected, for my performance and commitment, by the people of NoCountry to be part of a select group in which I actively participate in projects and work emulations.'
+    },
+    {
+      year: 2022,
+      duration: '6 months',
       title: 'Dharma panificados',
       details: 'General operator',
       moreDetails: 'management of industrial ovens for bread production.'

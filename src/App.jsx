@@ -1,3 +1,4 @@
+import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
 import Main from './components/Main';
 import Projects from './components/Projects';
@@ -11,6 +12,7 @@ function App ()
     <div className='scroll-smooth bg-slate-50'>
       <Sidenav />
       <Main />
+      <AboutMe />
       <Work />
       <Projects />
       <Contact />

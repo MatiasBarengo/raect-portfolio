@@ -24,7 +24,7 @@ const ProjectItem = ( { img, title, url, moreInfo } ) =>
         </button>
         {
           info ? (
-            <div data-aos='fade-right' className='fixed w-80 h-auto bg-gray-700/95 z-[99] flex flex-col justify-center items-center rounded-2xl'>
+            <div data-aos='fade-right' className='fixed w-80 h-auto bg-gray-800/95 z-[99] flex flex-col justify-center items-center rounded-2xl'>
               <div>
                 <button className='absolute top-1 right-1 px-2 pb-0.5 bg-white rounded-full font-semibold text-gray-700' onClick={ handleInfo } type="">X</button>
                 <p className='m-[1rem] text-white text-lg'>

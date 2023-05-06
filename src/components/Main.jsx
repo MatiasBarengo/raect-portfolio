@@ -8,16 +8,16 @@ const Main = () =>
     <div id='main'>
       <img className='w-full h-screen object-cover object-left scale-x-[-1]' src="https://blog.vindi.com.br/wp-content/uploads/2020/03/home-office-scaled.jpg" alt="/" />
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50 '>
-        <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center items-center'>
+        <div data-aos='zoom-in' className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center items-center'>
           <h1 className='sm:text-5xl text-4xl font-bold '>I'm Matias Barengo</h1>
           <h2 className='flex sm:text-3xl text-2xl pt-4'>I'm a<TypeAnimation
             sequence={ [
               'Tech Enthusiast', // Types 'One'
               1500, // Waits 2s
               'Coder', // Deletes 'One' and types 'Two'
-              1500, // Waits 2s
+              2000, // Waits 2s
               'Full Stack Developer', // Types 'Three' without deleting 'Two'
-              3000
+              3500
             ] }
             wrapper="div"
             cursor={ true }

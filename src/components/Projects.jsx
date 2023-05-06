@@ -11,7 +11,7 @@ const Projects = () =>
 {
   useEffect( () =>
   {
-    Aos.init( { duration: 2000 } )
+    Aos.init( { duration: 1500 } )
   }, [] )
 
   const pokedexUrl = 'https://pokedex-barengo.netlify.app/';
