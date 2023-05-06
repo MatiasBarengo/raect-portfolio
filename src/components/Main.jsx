@@ -45,8 +45,9 @@ const Main = () =>
               <FaWhatsapp size={ 30 } className='cursor-pointer hover:scale-150 ease-in duration-200' />
             </a>
             <a
-              href="src/assets/CV Matias Barengo.pdf"
-              download={ 'CV Matias Barengo.pdf' }
+              title='My CV'
+              href="https://drive.google.com/file/d/1KFqI5zgBf9QvcOd07RkFCNupzxdp11_C/view?usp=share_link"
+              target="_blank"
             >
               <i className="fa-solid fa-file-arrow-down cursor-pointer hover:scale-150 ease-in duration-200" style={ { fontSize: '1.8rem' } }></i>
             </a>

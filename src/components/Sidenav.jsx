@@ -20,6 +20,7 @@ const Sidenav = () =>
     console.log( 'state changed' )
   }
 
+  const cajachica = 1
 
   return (
     <div>
@@ -58,25 +59,23 @@ const Sidenav = () =>
       }
       <div className='md:block hidden fixed top-[25%] left-4 z-10'>
         <div className='flex flex-col' data-aos='flip-up'>
-          <a href="#main" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100'>
+          <a title='Home' href="#main" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100'>
             <AiOutlineHome size={ 25 } />
           </a>
-          <a href="#work" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100'>
+          <a title='Work experience' href="#work" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100'>
             <GrProjects size={ 25 } />
           </a>
-          <a href="#projects" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100'>
+          <a title='Projects' href="#projects" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100'>
             <AiOutlineProject size={ 25 } />
           </a>
-          <a href="#main" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100'>
+          <a title='About me' href="#main" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100'>
             <BsPerson size={ 25 } />
           </a>
-          <a href="#contact" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100'>
+          <a title='Contact' href="#contact" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100'>
             <AiOutlineMail size={ 25 } />
           </a>
         </div>
       </div>
-
-
     </div>
   );
 };
