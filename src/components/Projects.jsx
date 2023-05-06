@@ -15,16 +15,16 @@ const Projects = () =>
   }, [] )
 
   const pokedexUrl = 'https://pokedex-barengo.netlify.app/';
-  const pokedexInfo = 'An application based on the pokeApi which filters the characters of the series and shows their characteristics.'
+  const pokedexInfo = 'An application based on the pokeApi which filters the characters of the series and shows their characteristics.';
 
   const rickAndMortyUrl = 'https://matiasbarengo-rick-and-morty.netlify.app/';
-  const rickandmortyInfo = 'An application based on rickandmortyapi that filters the characters of the series by their planet of location and shows their information.'
+  const rickandmortyInfo = 'An application based on rickandmortyapi that filters the characters of the series by their planet of location and shows their information.';
 
   const boxShadowGeneratorUrl = 'https://matiasbarengo-css-shadow-generator.netlify.app';
-  const boxShadowGeneratorInfo = 'An application that generates component shadows and displays css code.'
+  const boxShadowGeneratorInfo = 'An application that generates component shadows and displays css code.';
 
   const weatherAppUrl = 'https://react-entregable-2.netlify.app/';
-  const weatherAppInfo = 'An application that obtains information from the user location and shows their weather factors.'
+  const weatherAppInfo = 'An application that obtains information from the user location and shows their weather factors.';
 
   return (
     <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16' data-aos='flip-up'>

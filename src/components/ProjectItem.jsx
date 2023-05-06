@@ -23,17 +23,18 @@ const ProjectItem = ( { img, title, url, moreInfo } ) =>
           More Info
         </button>
         {
-          info ? ( <div className='fixed w-80 h-auto bg-gray-700/95 z-[99] flex flex-col justify-center items-center rounded-2xl'>
-            <div>
-              <button className='absolute top-1 right-1 px-2 pb-0.5 bg-white rounded-full font-semibold text-gray-700' onClick={ handleInfo } type="">X</button>
-              <p className='m-[1rem] text-white text-lg'>
-                { moreInfo }
-              </p>
+          info ? (
+            <div data-aos='fade-right' className='fixed w-80 h-auto bg-gray-700/95 z-[99] flex flex-col justify-center items-center rounded-2xl'>
+              <div>
+                <button className='absolute top-1 right-1 px-2 pb-0.5 bg-white rounded-full font-semibold text-gray-700' onClick={ handleInfo } type="">X</button>
+                <p className='m-[1rem] text-white text-lg'>
+                  { moreInfo }
+                </p>
+              </div>
+              <a className='w-fit text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg mb-[1rem]' onClick={ handleInfo } href={ url } target='_blank'>
+                Visit
+              </a>
             </div>
-            <a className='w-fit text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg mb-[1rem]' onClick={ handleInfo } href={ url } target='_blank'>
-              Visit
-            </a>
-          </div>
           )
             :
             ( '' )
