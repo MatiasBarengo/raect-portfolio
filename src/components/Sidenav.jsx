@@ -20,8 +20,6 @@ const Sidenav = () =>
     console.log( 'state changed' )
   }
 
-  const cajachica = 1
-
   return (
     <div>
       <AiOutlineMenu
@@ -30,7 +28,7 @@ const Sidenav = () =>
         size={ 35 } />
       {
         nav ? (
-          <div className='fixed w-full h-screen bg-white/60 flex flex-col justify-center items-center z-20'>
+          <div className='fixed w-screen h-screen bg-white/60 flex flex-col justify-center items-center z-20'>
             <a onClick={ handleNav } href="#main" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-100'>
               <AiOutlineHome size={ 20 } />
               <span className='pl-4'>Home</span>
