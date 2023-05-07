@@ -91,31 +91,46 @@ const AboutMe = () =>
         >Contact Info
         </h2>
         <div data-aos='fade-left' className='flex flex-wrap gap-20 justify-around items-center mt-8 '>
-          <a
-            href="https://drive.google.com/file/d/1KFqI5zgBf9QvcOd07RkFCNupzxdp11_C/view?usp=share_link"
-            target='_blank'>
-            <img className='h-24 hover:scale-125 ease-in duration-200' src={ cv } title="Mi CV" />
-          </a>
-          <a
-            href="https://github.com/MatiasBarengo"
-            target='_blank'>
-            <img className='h-24 hover:scale-125 ease-in duration-200' src={ github } title="Mi GitHub" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/matias-barengo-dev/"
-            target='_blank'>
-            <img className='h-24 hover:scale-125 ease-in duration-200' src={ linkedin } title="Mi Linkedin" />
-          </a>
-          <a
-            href="https://wa.me/541161444231"
-            target='_blank'>
-            <img className='h-24 hover:scale-125 ease-in duration-200' src={ whatsapp } title="Mi WhatsApp" />
-          </a>
-          <a
-            href="mailto:matiasbarengo99@gmail.com"
-            target='_blank'>
-            <img className='h-24 hover:scale-125 ease-in duration-200' src={ gmail } title="Mi Gmail" />
-          </a>
+          <div className='flex flex-col justify-center items-center gap-2'>
+            <a
+              href="https://drive.google.com/file/d/1KFqI5zgBf9QvcOd07RkFCNupzxdp11_C/view?usp=share_link"
+              target='_blank'>
+              <img className='h-24 hover:scale-125 ease-in duration-200' src={ cv } title="Mi CV" />
+            </a>
+            <p className='text-gray-500 italic'>Download my CV</p>
+          </div>
+          <div className='flex flex-col justify-center items-center gap-2'>
+            <a
+              href="https://github.com/MatiasBarengo"
+              target='_blank'>
+              <img className='h-24 hover:scale-125 ease-in duration-200' src={ github } title="Mi GitHub" />
+            </a>
+            <p className='text-gray-500 italic'>My GitHub</p>
+          </div>
+          <div className='flex flex-col justify-center items-center gap-2'>
+            <a
+              href="https://www.linkedin.com/in/matias-barengo-dev/"
+              target='_blank'>
+              <img className='h-24 hover:scale-125 ease-in duration-200' src={ linkedin } title="Mi Linkedin" />
+            </a>
+            <p className='text-gray-500 italic'>My Linkedin</p>
+          </div>
+          <div className='flex flex-col justify-center items-center gap-2'>
+            <a
+              href="https://wa.me/541161444231"
+              target='_blank'>
+              <img className='h-24 hover:scale-125 ease-in duration-200' src={ whatsapp } title="Mi WhatsApp" />
+            </a>
+            <p className='text-gray-500 italic'>Send me a WhatsApp</p>
+          </div>
+          <div className='flex flex-col justify-center items-center gap-2'>
+            <a
+              href="mailto:matiasbarengo99@gmail.com"
+              target='_blank'>
+              <img className='h-24 hover:scale-125 ease-in duration-200' src={ gmail } title="Mi Gmail" />
+            </a>
+            <p className='text-gray-500 italic'>Send me an Email</p>
+          </div>
         </div>
         {/* Know me */ }
         <h2 className='border-animation text-2xl font-bold text-left text-[#001b5e] mt-16'>
