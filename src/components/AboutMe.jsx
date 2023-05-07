@@ -3,7 +3,7 @@ import htmlCssJavascript from '../assets/js-html-css.png'
 import reactJs from '../assets/reactjs.png'
 import tailwindCss from '../assets/tailwindcss.png'
 import redux from '../assets/redux.png'
-import nextJs from '../assets/nextjs.png'
+// import nextJs from '../assets/nextjs.png'
 import typescript from '../assets/typescript.png'
 import nodeJs from '../assets/nodejs.png'
 import gmail from '../assets/gmail.png'
@@ -69,14 +69,14 @@ const AboutMe = () =>
               alt="redux" />
             <p className='text-gray-500 italic'>Redux</p>
           </div>
-          <div className='flex flex-col justify-center items-center'>
+          {/* <div className='flex flex-col justify-center items-center'>
             <img
               title='NextJs'
               className='h-32 mx-16 my-8 hover:scale-125 ease-in duration-200'
               src={ nextJs }
               alt="nextjs" />
             <p className='text-gray-500 italic'>NextJs</p>
-          </div>
+          </div> */}
           <div className='flex flex-col justify-center items-center'>
             <img
               title='TypeScript'
