@@ -25,31 +25,34 @@ const Main = () =>
             style={ { fontSize: '1em', paddingLeft: '5px' } }
           />
           </h2>
-          <div className='flex justify-between pt-6 max-w-[200px] w-full'>
+          <div className='flex justify-center pt-6 w-full gap-8 items-center'>
             <a
+              title='My Linkedin'
               href='https://www.linkedin.com/in/matias-barengo-dev/'
               target="_blank"
             >
-              <FaLinkedinIn size={ 30 } className='cursor-pointer hover:scale-150 ease-in duration-200' />
+              <FaLinkedinIn size={ 45 } className='cursor-pointer hover:scale-150 ease-in duration-200' />
             </a>
             <a
+              title='My GitHub'
               href='https://github.com/MatiasBarengo'
               target="_blank"
             >
-              <FaGithub size={ 30 } className='cursor-pointer hover:scale-150 ease-in duration-200' />
+              <FaGithub size={ 45 } className='cursor-pointer hover:scale-150 ease-in duration-200' />
             </a>
             <a
+              title='My WhatsApp'
               href='https://wa.me/541161444231'
               target="_blank"
             >
-              <FaWhatsapp size={ 30 } className='cursor-pointer hover:scale-150 ease-in duration-200' />
+              <FaWhatsapp size={ 45 } className='cursor-pointer hover:scale-150 ease-in duration-200' />
             </a>
             <a
               title='My CV'
               href="https://drive.google.com/file/d/1KFqI5zgBf9QvcOd07RkFCNupzxdp11_C/view?usp=share_link"
               target="_blank"
             >
-              <i className="fa-solid fa-file-arrow-down cursor-pointer hover:scale-150 ease-in duration-200" style={ { fontSize: '1.8rem' } }></i>
+              <i className="fa-solid fa-file-arrow-down cursor-pointer hover:scale-150 ease-in duration-200" style={ { fontSize: '2.5rem' } }></i>
             </a>
           </div>
         </div>
