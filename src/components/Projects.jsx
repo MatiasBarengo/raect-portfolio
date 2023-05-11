@@ -5,6 +5,7 @@ import rickAndMortyImg from '../assets/rickandmorty.jpg'
 import boxShadowGeneratorImg from '../assets/boxshadowgenerator.jpg'
 import weatherAppImg from '../assets/weatherapp.jpg'
 import CmcImg from '../assets/cmc.jpg'
+import ecommerceAcademloImg from '../assets/ecommerce.jpg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
@@ -36,10 +37,21 @@ const Projects = () =>
   const cmcAppInfo = 'An application Destined for a medical center which organizes the medical agenda of both the patient and the specialist, it was created to make it easier for patients to obtain their medical appointments, as the name indicates, just a click away.';
   const cmcTechnologies = [ 'ReactJs', 'TypeScript', 'Redux', 'Tailwind CSS', 'NodeJs', 'PostgreSQL', 'Express', 'Sequelize' ];
 
+  const ecommerceAcademloUrl = 'https://matiasbarengo-e-commerce.netlify.app/';
+  const ecommerceAcademloInfo = 'An E-commerce based on the Academlo API';
+  const ecommerceAcademloTechnologies = [ 'ReactJs', 'Redux', 'CSS3', 'Academlo Ecommerce API' ]
+
   return (
     <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16' data-aos='flip-up'>
       <h1 className='text-4xl font-bold text-center text-[#001b5e] mb-10'>Projects</h1>
       <div className='grid sm:grid-cols-2 gap-12'>
+        <ProjectItem
+          img={ ecommerceAcademloImg }
+          title='Ecommerce Academlo'
+          url={ ecommerceAcademloUrl }
+          moreInfo={ ecommerceAcademloInfo }
+          technologies={ ecommerceAcademloTechnologies }
+        />
         <ProjectItem
           img={ CmcImg }
           title='CMC Citas medicas a un click'

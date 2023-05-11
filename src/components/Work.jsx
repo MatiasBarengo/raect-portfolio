@@ -20,13 +20,6 @@ const Work = () =>
     },
     {
       year: 2022,
-      duration: '6 months',
-      title: 'Dharma panificados',
-      details: 'General operator',
-      moreDetails: 'management of industrial ovens for bread production.'
-    },
-    {
-      year: 2022,
       duration: '3 months',
       title: 'Pedidos Ya!',
       details: 'Rider'

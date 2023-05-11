@@ -43,7 +43,7 @@ const ProjectItem = ( { img, title, url, moreInfo, technologies } ) =>
       <div className='flex flex-wrap mt-4 justify-center gap-2'>
         {
           technologies.map( ( item, id ) => (
-            <p className='p-3 bg-slate-300 rounded-full' key={ id }>{ item }</p>
+            <p className='p-3 bg-slate-300 rounded-full shadow-md' key={ id }>{ item }</p>
           ) )
         }
       </div>
